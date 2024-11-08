@@ -1,0 +1,38 @@
+/* html{
+    font-size: 16px;
+}
+
+.parent{
+    font-size: 20px;
+}
+
+.child-em{
+    font-size: 2em;
+    margin: 1.5em;
+}
+
+.child-em{
+    font-size: 2rem;
+    margin: 1.5rem;
+} */
+
+th{
+    border: 1px solid;
+    padding: 0;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cabeça{
+    width: 90%;
+}
+
+body{
+    background-image: url('https://santuarionacional.vteximg.com.br/arquivos/ids/163413-625-625/31.jpg?v=637933290816970000');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

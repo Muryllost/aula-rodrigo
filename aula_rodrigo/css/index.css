@@ -1,0 +1,57 @@
+
+h1{
+    text-align: center;
+}
+
+ .foto-perfil {
+border: 5px solid rgb(57, 57, 60);
+position:  center;
+border-radius: 50%;
+width: 15%;
+}
+.social-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-container img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.open-modal {
+   display: block;
+    background-color: rgb(145, 212, 224);
+    margin: 50px auto; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-modal{
+    display: block;
+    border-radius: 5px;
+    margin:  5px auto;
+    padding: 10px 20px;
+    background-color:  rgb(145, 212, 224);
+
+}
+
+#modal {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border: none;
+    border-radius: 10px;
+}
+
+
+dialog::backdrop {
+    background: rgba(128, 128, 128, 0.8); /* Cor de fundo acinzentada com opacidade */
+}
+
+
